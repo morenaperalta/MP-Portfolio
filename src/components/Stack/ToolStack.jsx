@@ -9,7 +9,7 @@ import {
 	SiTrello,
 } from 'react-icons/si';
 
-function Toolstack() {
+function ToolStack() {
 	return (
 		<Row style={{ justifyContent: 'center', paddingBottom: '40px' }}>
 			<Col
@@ -64,4 +64,4 @@ function Toolstack() {
 	);
 }
 
-export default Toolstack;
+export default ToolStack;

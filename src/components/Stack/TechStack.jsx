@@ -21,7 +21,7 @@ import {
 	SiGithub,
 } from 'react-icons/si';
 
-function Techstack() {
+function TechStack() {
 	return (
 		<Row style={{ justifyContent: 'center', paddingBottom: '40px' }}>
 			<Col
@@ -150,4 +150,4 @@ function Techstack() {
 	);
 }
 
-export default Techstack;
+export default TechStack;

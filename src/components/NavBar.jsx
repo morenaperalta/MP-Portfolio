@@ -55,7 +55,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/about"
+                to="/stack"
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineGold style={{ marginBottom: "2px" }} /> Stack
