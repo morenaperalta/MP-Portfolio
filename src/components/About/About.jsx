@@ -3,7 +3,7 @@ import picture from "../../assets/home-main.png";
 import Type from "./Type";
 import { AiOutlineDownload } from "react-icons/ai";
 
-const pdf = "https://drive.google.com/uc?id=1pmJva8Q9gIqYk1rZD7w-r-_IRlMPG6ok";
+const pdf = "https://drive.google.com/file/d/1dp7W53DgRceOHZuIDWvO2X2CiWatEQVu/view?usp=drive_link";
 
 function About() {
   return (
