@@ -1,5 +1,4 @@
 import { Container, Row, Col, Button } from "react-bootstrap";
-import { Container, Row, Col, Button } from "react-bootstrap";
 import picture from "../../assets/home-main.png";
 import Type from "./Type";
 import "../../style.css";
