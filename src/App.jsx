@@ -9,8 +9,8 @@ import {
   Routes,
   Navigate
 } from "react-router-dom";
-import "./style.css";
 import "./App.css";
+import "./style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
         <Routes>
           <Route path="/" element={<About />} />
           <Route path="/stack" element={<Stack />} />
-          <Route path="/project" element={<Projects />} />
+          <Route path="/projects" element={<Projects />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer /> 

@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Github from "./GitHub.jsx";
 import TechStack from "./TechStack.jsx";
 import ToolStack from "./ToolStack.jsx";
 
@@ -27,7 +26,6 @@ function Stack() {
           <strong className="aqua">Tools</strong> I use
         </h1>
         <ToolStack />
-        <Github />
       </Container>
     </Container>
   );

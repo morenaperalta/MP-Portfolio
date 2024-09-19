@@ -1,15 +1,14 @@
 import { Container, Row, Col, Button } from "react-bootstrap";
 import picture from "../../assets/home-main.png";
 import Type from "./Type";
-import "../../style.css";
 import { AiOutlineDownload } from "react-icons/ai";
 
 const pdf = "https://drive.google.com/uc?id=1pmJva8Q9gIqYk1rZD7w-r-_IRlMPG6ok";
 
 function About() {
   return (
-    <section className="about-section">
-      <Container fluid className="about-content">
+    <section className="home-section">
+      <Container fluid className="home-content">
         <Container>
           <Row>
             <Col md={8} className="about-header">
