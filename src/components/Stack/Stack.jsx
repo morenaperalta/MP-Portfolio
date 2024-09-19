@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import TechStack from "./TechStack.jsx";
 import ToolStack from "./ToolStack.jsx";
+import FutureStack from "./FutureStack.jsx";
 
 function Stack() {
   return (
@@ -26,6 +27,10 @@ function Stack() {
           <strong className="aqua">Tools</strong> I use
         </h1>
         <ToolStack />
+        <h1 className="project-heading">
+          Technologies<strong className="aqua"> I am learning </strong>
+        </h1>
+        <FutureStack />
       </Container>
     </Container>
   );
