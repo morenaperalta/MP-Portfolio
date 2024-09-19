@@ -15,7 +15,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/MP-Portfolio">
         <Navbar />
         <Routes>
           <Route path="/" element={<About />} />
