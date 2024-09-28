@@ -22,7 +22,7 @@ function About() {
                 I'm
                 <strong> MORENA PERALTA</strong>
               </h1>
-              <div style={{ padding: 5, textAlign: "center" }}>
+              <div style={{ padding: 5, textAlign: "left" }}>
                 <Type />
               </div>
               <p className="about-about-body">
