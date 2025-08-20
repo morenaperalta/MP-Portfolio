@@ -7,19 +7,47 @@ import {
 	DiMongodb,
 	DiGit,
 	DiMysql,
+	DiJava,
+	DiJenkins,
+	DiDocker
 } from 'react-icons/di';
 import {
 	SiTypescript,
 	SiBootstrap,
 	SiHtml5,
 	SiCss3,
-	SiTailwindcss,
 	SiGithub,
+	SiSpringboot,
+	SiSpringsecurity
 } from 'react-icons/si';
 
 function TechStack() {
 	return (
 		<Row style={{ justifyContent: 'center', paddingBottom: '40px' }}>
+			<Col
+				xs={2}
+				md={2}
+				lg={1}
+				className='tech-icons'>
+				<DiJava />
+				<h6>Java</h6>
+			</Col>	
+			<Col
+				xs={2}
+				md={2}
+				lg={1}
+				className='tech-icons'>
+				<SiSpringboot />
+				<h6>Spring Boot</h6>
+			</Col>
+			<Col
+				xs={2}
+				md={2}
+				lg={1}
+				className='tech-icons'>
+				<SiSpringsecurity />
+				<h6>Spring Security</h6>
+			</Col>
 			<Col
 				xs={2}
 				md={2}
@@ -76,13 +104,6 @@ function TechStack() {
 				md={2}
 				lg={1}
 				className='tech-icons'>
-				<SiTailwindcss /> <h6>Tailwind</h6>
-			</Col>
-			<Col
-				xs={2}
-				md={2}
-				lg={1}
-				className='tech-icons'>
 				<DiMysql />
 				<h6>MySQL</h6>
 			</Col>
@@ -109,6 +130,22 @@ function TechStack() {
 				className='tech-icons'>
 				<SiGithub />
 				<h6>GitHub</h6>
+			</Col>
+						<Col
+				xs={2}
+				md={2}
+				lg={1}
+				className='tech-icons'>
+				<DiJenkins />
+				<h6>Jenkins</h6>
+			</Col>
+			<Col
+				xs={2}
+				md={2}
+				lg={1}
+				className='tech-icons'>
+				<DiDocker />
+				<h6>Docker</h6>
 			</Col>
 		</Row>
 	);

@@ -4,9 +4,9 @@ import {
 	SiVisualstudiocode,
 	SiPostman,
 	SiSlack,
-	SiVercel,
 	SiMacos,
 	SiTrello,
+	SiJira
 } from 'react-icons/si';
 
 function ToolStack() {
@@ -44,6 +44,14 @@ function ToolStack() {
 				<SiSlack />
 				<h6>Slack</h6>
 			</Col>
+						<Col
+				xs={2}
+				md={2}
+				lg={1}
+				className='tech-icons'>
+				<SiJira />
+				<h6>Jira</h6>
+			</Col>
 			<Col
 				xs={2}
 				md={2}
@@ -51,14 +59,6 @@ function ToolStack() {
 				className='tech-icons'>
 				<SiTrello />
 				<h6>Trello</h6>
-			</Col>
-			<Col
-				xs={2}
-				md={2}
-				lg={1}
-				className='tech-icons'>
-				<SiVercel />
-				<h6>Vercel</h6>
 			</Col>
 		</Row>
 	);

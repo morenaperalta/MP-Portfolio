@@ -43,18 +43,7 @@ function About() {
                 <br />
                 🤝 <b className="aqua">Teamwork:</b> I believe that a diversity of ideas and perspectives enriches projects, which is why I enjoy working in collaborative environments.
               </p>
-              <Row style={{ justifyContent: "center", position: "relative", marginTop: "3em" }}>
-                <Button
-                  variant="primary"
-                  href={pdf}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{ maxWidth: "250px" }}
-                >
-                  <AiOutlineDownload />
-                  &nbsp;Download CV
-                </Button>
-              </Row>
+          
             </Col>
             <Col md={4} className="d-flex justify-content-center align-items-center" style={{ paddingTop: 110, paddingLeft: 70, paddingRight: 70 }}>
               <img
