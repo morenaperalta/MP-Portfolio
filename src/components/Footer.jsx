@@ -14,7 +14,7 @@ function Footer() {
 			<ul className='home-about-social-links'>
 				<li className='social-icons'>
 					<a
-						href='https://github.com/More-Pe'
+						href='https://github.com/morenaperalta'
 						target='_blank'
 						rel='noopener noreferrer'
 						className='icon-colour  home-social-icons'>
@@ -23,7 +23,7 @@ function Footer() {
 				</li>
 				<li className='social-icons'>
 					<a
-						href='https://www.linkedin.com/in/morena-peralta-almada/'
+						href='https://www.linkedin.com/in/morenaperalta/'
 						target='_blank'
 						rel='noopener noreferrer'
 						className='icon-colour  home-social-icons'>

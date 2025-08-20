@@ -9,7 +9,7 @@ import {
 	DiMysql,
 	DiJava,
 	DiJenkins,
-	DiDocker
+	DiDocker,
 } from 'react-icons/di';
 import {
 	SiTypescript,
@@ -18,7 +18,7 @@ import {
 	SiCss3,
 	SiGithub,
 	SiSpringboot,
-	SiSpringsecurity
+	SiSpringsecurity,
 } from 'react-icons/si';
 
 function TechStack() {
@@ -31,7 +31,7 @@ function TechStack() {
 				className='tech-icons'>
 				<DiJava />
 				<h6>Java</h6>
-			</Col>	
+			</Col>
 			<Col
 				xs={2}
 				md={2}
@@ -131,7 +131,7 @@ function TechStack() {
 				<SiGithub />
 				<h6>GitHub</h6>
 			</Col>
-						<Col
+			<Col
 				xs={2}
 				md={2}
 				lg={1}
