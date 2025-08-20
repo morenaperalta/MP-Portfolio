@@ -54,7 +54,7 @@ To run this project locally, follow these steps:
 
 ## 🚀 Deploy
 
-<div align="center"><h5>To see this page in accion, click here! ⮕ </h5><a href="https://more-pe.github.io/MP-Portfolio/" target="_blank"><img src="https://img.shields.io/badge/my_portfolio-235?style=for-the-badge&logo=ko-fi&logoColor=cyan"></a>
+<div align="center"><h5>To see this page in accion, click here! ⮕ </h5><a href="https://morenaperalta.github.io/MP-Portfolio/" target="_blank"><img src="https://img.shields.io/badge/my_portfolio-235?style=for-the-badge&logo=ko-fi&logoColor=cyan"></a>
 </div>
 
 ## 📞 Contact
