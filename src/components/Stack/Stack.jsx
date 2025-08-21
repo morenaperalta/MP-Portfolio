@@ -20,15 +20,15 @@ function Stack() {
 						}}></Col>
 				</Row>
 				<h1 className='project-heading'>
-					Professional <strong className='aqua'>Skillset </strong>
+					Professional <strong className='blacky'>Skillset </strong>
 				</h1>
 				<TechStack />
 				<h1 className='project-heading'>
-					<strong className='aqua'>Tools</strong> I use
+					<strong className='blacky'>Tools</strong> I use
 				</h1>
 				<ToolStack />
 				<h1 className='project-heading'>
-					Technologies<strong className='aqua'> I am learning </strong>
+					Technologies<strong className='blacky'> I am learning </strong>
 				</h1>
 				<FutureStack />
 			</Container>

@@ -2,9 +2,14 @@ html {
 	--section-background-color: transparent;
 	--image-gradient: transparent;
 	--imp-text-color: #eb2a64;
+	--blacky: #050716;
 }
 .aqua {
 	color: var(--imp-text-color);
+}
+
+.blacky {
+	color: var(--blacky);
 }
 
 button:focus {
