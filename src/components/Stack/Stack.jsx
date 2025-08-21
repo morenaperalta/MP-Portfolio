@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import homeBg from '../../assets/home-bg.jpg';
 import TechStack from './TechStack.jsx';
 import ToolStack from './ToolStack.jsx';
 import FutureStack from './FutureStack.jsx';
@@ -9,10 +8,7 @@ function Stack() {
 	return (
 		<Container
 			fluid
-			className='home-stack-section'
-			style={{
-				backgroundImage: `linear-gradient(to bottom left, rgba(17, 16, 16, 0.678), rgba(20, 15, 47, 0.863)), url(${homeBg})`,
-			}}>
+			className='home-stack-section'>
 			<Container>
 				<Row style={{ justifyContent: 'center', padding: '10px' }}>
 					<Col

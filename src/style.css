@@ -1,17 +1,7 @@
 html {
-	--section-background-color: linear-gradient(
-		to bottom left,
-		rgba(17, 16, 16, 0.582),
-		rgba(12, 8, 24, 0.904)
-	);
-
-	--image-gradient: linear-gradient(
-		to bottom left,
-		rgba(17, 16, 16, 0.678),
-		rgba(20, 15, 47, 0.863)
-	);
-
-	--imp-text-color: #21c3bb;
+	--section-background-color: transparent;
+	--image-gradient: transparent;
+	--imp-text-color: #eb2a64;
 }
 .aqua {
 	color: var(--imp-text-color);
@@ -21,10 +11,8 @@ button:focus {
 	box-shadow: none !important;
 }
 
-
-
 .sticky {
-	background-color: #1b1a2ea9 !important;
+	background-color: #040716 !important;
 	transition: all 0.3s ease-out 0s !important;
 	box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
 	backdrop-filter: blur(15px) !important;
@@ -45,7 +33,7 @@ button:focus {
 
 .navbar-toggler span {
 	display: block !important;
-	background-color: #50f4e9 !important;
+	background-color: #b32852 !important;
 	height: 4px !important;
 	width: 27px !important;
 	margin-top: 5px !important;
@@ -92,7 +80,7 @@ button:focus {
 	.navbar {
 		padding: 1rem 2rem !important;
 		font-size: 1.4rem !important;
-		background-color: #181a27 !important;
+		background-color: #040716 !important;
 	}
 	.navbar-nav .nav-item a::after {
 		display: none !important;
@@ -108,7 +96,7 @@ button:focus {
 }
 
 .navbar-nav .nav-link {
-	color: white !important;
+	color: rgba(235, 42, 100, 0.8) !important;
 	padding-right: 1rem !important;
 	padding-left: 1rem !important;
 }
@@ -142,7 +130,7 @@ button:focus {
 	height: 5px;
 	width: 0;
 	border-radius: 16px;
-	background: #5bedf5;
+	background: #eb2a64;
 	bottom: 1px;
 	left: 0;
 	z-index: -1;
@@ -153,14 +141,11 @@ button:focus {
 	width: 100%;
 }
 
-
-
-
 .wave {
-	animation-name: wave-animation; 
-	animation-duration: 2.1s; 
-	animation-iteration-count: infinite; 
-	transform-origin: 70% 70%; 
+	animation-name: wave-animation;
+	animation-duration: 2.1s;
+	animation-iteration-count: infinite;
+	transform-origin: 70% 70%;
 	display: inline-block;
 }
 
@@ -169,15 +154,15 @@ button:focus {
 }
 
 .neon-border {
-	box-shadow: 0 0 5px rgba(0, 255, 255, 0.608),
-		0 0 10px rgba(0, 255, 255, 0.481), 0 0 15px rgba(0, 255, 255, 0.5);
+	box-shadow: 0 0 5px rgba(179, 40, 82, 0.608),
+		0 0 10px rgba(179, 40, 82, 0.481), 0 0 15px rgba(179, 40, 82, 0.5);
 	border-radius: 50%;
 	transition: all 0.3s ease;
 }
 
 .neon-border:hover {
-	box-shadow: 0 0 10px rgba(0, 255, 255, 0.859),
-		0 0 20px rgba(0, 255, 255, 0.882), 0 0 30px rgba(0, 255, 255, 0.835);
+	box-shadow: 0 0 10px rgba(179, 40, 82, 0.859),
+		0 0 20px rgba(179, 40, 82, 0.882), 0 0 30px rgba(179, 40, 82, 0.835);
 }
 
 @keyframes wave-animation {
@@ -201,7 +186,7 @@ button:focus {
 	}
 	60% {
 		transform: rotate(0deg);
-	} 
+	}
 	100% {
 		transform: rotate(0deg);
 	}
@@ -219,7 +204,7 @@ button:focus {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	min-height: calc(100vh - 60px); 
+	min-height: calc(100vh - 60px);
 }
 
 .home-content {
@@ -228,7 +213,7 @@ button:focus {
 	flex-direction: column;
 	justify-content: center;
 	padding: 2rem 0;
-	color: whitesmoke;
+	color: rgba(235, 42, 100, 0.8);
 	text-align: left;
 }
 
@@ -243,18 +228,18 @@ button:focus {
 }
 
 .main-name {
-	color: #5ff0f8;
+	color: #eb2a64;
 }
 
 .Typewriter__wrapper {
 	font-size: 2.2em;
-	color: #6adfd3;
+	color: #eb2a64;
 	font-weight: 600;
 }
 
 .Typewriter__cursor {
 	font-size: 2.4em;
-	color: #62ced6;
+	color: #eb2a64;
 }
 
 @media (max-width: 767px) {
@@ -289,14 +274,14 @@ button:focus {
 }
 
 .home-stack-description {
-	color: white !important;
+	color: rgba(235, 42, 100, 0.8) !important;
 	padding-top: 100px !important;
 	padding-bottom: 20px !important;
 	text-align: center;
 }
 
 .home-stack-body {
-	color: white !important;
+	color: rgba(235, 42, 100, 0.8) !important;
 	font-size: 1.2em !important;
 	text-align: left;
 }
@@ -304,7 +289,7 @@ button:focus {
 .home-stack-social {
 	text-align: center !important;
 	padding-top: 25px;
-	color: white !important;
+	color: rgba(235, 42, 100, 0.8) !important;
 }
 
 .home-stack-social-links {
@@ -336,7 +321,7 @@ button:focus {
 	width: 100%;
 	height: 100%;
 	border-radius: 50%;
-	background: #1f187a;
+	background: #b32852;
 	transition: 0.5s;
 	transform: scale(0.9);
 	z-index: -1;
@@ -344,13 +329,13 @@ button:focus {
 
 .home-social-icons:hover::before {
 	transform: scale(1.1);
-	box-shadow: 0 0 15px #1f2795;
+	box-shadow: 0 0 15px #b32852;
 }
 
 .home-social-icons:hover {
-	color: #37209e;
-	box-shadow: 0 0 5px #20249e;
-	text-shadow: 0 0 2px #20269e;
+	color: #b32852;
+	box-shadow: 0 0 5px #b32852;
+	text-shadow: 0 0 2px #b32852;
 }
 
 .social-icons {
@@ -387,11 +372,8 @@ button:focus {
 }
 
 .icon-colour {
-	color: #0c2d86;
+	color: #b32852;
 }
-
-
-
 
 .footer {
 	background-color: #040716;
@@ -423,7 +405,7 @@ button:focus {
 
 .footer h3 {
 	font-size: 1em;
-	color: white !important;
+	color: rgba(235, 42, 100, 0.8) !important;
 	margin-top: 0.5em !important;
 	margin-bottom: 0.5em !important;
 }
@@ -434,11 +416,8 @@ button:focus {
 }
 
 .blockquote-footer {
-	color: #88b1c0 !important;
+	color: #d1c7ca !important;
 }
-
-
-
 
 .project-section {
 	position: relative !important;
@@ -456,9 +435,9 @@ button:focus {
 }
 
 .project-card-view {
-	box-shadow: 4px 5px 4px 3px rgba(144, 135, 226, 0.137) !important;
-	border: 1.7px solid rgba(103, 96, 238, 0.637) !important;
-	color: white !important;
+	box-shadow: 4px 5px 4px 3px #b32852 !important;
+	border: 1.7px solid #b32852 !important;
+	color: rgba(235, 42, 100, 0.8) !important;
 	background-color: transparent !important;
 	opacity: 0.9 !important;
 	transition: all 0.5s ease 0s !important;
@@ -468,8 +447,7 @@ button:focus {
 .project-card-view:hover {
 	transform: scale(1.02) !important;
 	overflow: hidden !important;
-	box-shadow: 0 0 5px rgba(0, 255, 255, 0.859),
-		0 0 10px rgba(0, 255, 255, 0.882), 0 0 15px rgba(0, 255, 255, 0.835) !important;
+	box-shadow: 0 0 5px #eb2a64, 0 0 10px #eb2a64, 0 0 15px #eb2a64 !important;
 }
 
 .blog-card {
@@ -482,14 +460,14 @@ button:focus {
 
 .blog-card-view {
 	background-color: transparent !important;
-	box-shadow: 0 3px 3px 2px rgba(77, 80, 161, 0.459) !important;
-	color: white !important;
+	box-shadow: 0 3px 3px 2px rgba(179, 40, 82, 0.459) !important;
+	color: rgba(235, 42, 100, 0.8) !important;
 	transition: all 0.5s ease 0s !important;
 	height: 100% !important;
 }
 
 .blog-link {
-	color: white !important;
+	color: rgba(235, 42, 100, 0.8) !important;
 	text-decoration: none !important;
 }
 
@@ -500,7 +478,7 @@ button:focus {
 .blog-card-view:hover {
 	transform: scale(1.02) !important;
 	overflow: hidden !important;
-	box-shadow: 0 3px 3px 5px rgba(92, 88, 173, 0.65) !important;
+	box-shadow: 0 3px 3px 5px rgba(179, 40, 82, 0.65) !important;
 }
 
 .card-img-top {
@@ -517,13 +495,13 @@ button:focus {
 
 .btn-primary {
 	color: #fff !important;
-	background-color: #08c8c2 !important;
+	background-color: #eb2a64 !important;
 	border: none !important;
 }
 
 .btn-primary:hover {
 	color: #fff !important;
-	background-color: #20b7c5d7 !important;
+	background-color: #d1245a !important;
 	border: none !important;
 }
 .btn:focus {
@@ -532,22 +510,18 @@ button:focus {
 	border: none !important;
 }
 .project-heading {
-	color: white !important;
+	color: rgba(235, 42, 100, 0.8) !important;
 	font-size: 1.5em !important;
 	font-weight: 300 !important;
 	padding-top: 10px !important;
 }
-
-
-
-
 
 .tech-icons {
 	font-size: 2.5em !important;
 	margin: 0.2em !important;
 	padding: 1.2em !important;
 	opacity: 0.93 !important;
-	border: 1.7px solid rgba(103, 96, 238, 0.637) !important;
+	border: 1.7px solid #b32852 !important;
 	vertical-align: middle !important;
 	text-align: center !important;
 	border-radius: 5px !important;
@@ -555,10 +529,10 @@ button:focus {
 	flex-direction: column !important;
 	justify-content: center !important;
 	align-items: center !important;
-	box-shadow: 4px 5px 4px 3px rgba(144, 135, 226, 0.137) !important;
+	box-shadow: 4px 5px 4px 3px #b32852 !important;
 	overflow: hidden !important;
 	transition: all 0.4s ease 0s !important;
-	color: white !important;
+	color: rgba(235, 42, 100, 0.8) !important;
 	width: 80px !important;
 	height: 80px !important;
 	aspect-ratio: 1 / 1 !important;
@@ -574,7 +548,7 @@ button:focus {
 }
 
 .tech-icons h6 {
-	color: white !important;
+	color: rgba(235, 42, 100, 0.8) !important;
 }
 
 @media (max-width: 767px) {
@@ -594,23 +568,20 @@ button:focus {
 .tech-icons:hover {
 	transform: scale(1.05) !important;
 	overflow: hidden !important;
-	box-shadow: 0 0 5px rgba(0, 255, 255, 0.859),
-		0 0 10px rgba(0, 255, 255, 0.882), 0 0 15px rgba(0, 255, 255, 0.835) !important;
+	box-shadow: 0 0 5px #eb2a64, 0 0 10px #eb2a64, 0 0 15px #eb2a64 !important;
 }
 
 @media (hover: hover) and (pointer: fine) {
 	.tech-icons:hover {
 		transform: scale(1.05) !important;
-		box-shadow: 0 0 5px rgba(0, 255, 255, 0.859),
-			0 0 10px rgba(0, 255, 255, 0.882), 0 0 15px rgba(0, 255, 255, 0.835) !important;
+		box-shadow: 0 0 5px #eb2a64, 0 0 10px #eb2a64, 0 0 15px #eb2a64 !important;
 	}
 }
 
 @media (hover: none) and (pointer: coarse) {
 	.tech-icons:active {
 		transform: scale(1.05) !important;
-		box-shadow: 0 0 5px rgba(0, 255, 255, 0.859),
-			0 0 10px rgba(0, 255, 255, 0.882), 0 0 15px rgba(0, 255, 255, 0.835) !important;
+		box-shadow: 0 0 5px #eb2a64, 0 0 10px #eb2a64, 0 0 15px #eb2a64 !important;
 		transition: all 0.1s ease !important;
 	}
 }
@@ -621,7 +592,7 @@ button:focus {
 
 .quote-card-view {
 	border: none !important;
-	color: white !important;
+	color: rgba(235, 42, 100, 0.8) !important;
 	background-color: transparent !important;
 }
 
@@ -636,7 +607,6 @@ button:focus {
 		padding-top: 0 !important;
 	}
 }
-
 
 .type-container {
 	padding-left: 20px;

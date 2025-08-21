@@ -1,15 +1,10 @@
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import picture from '../../assets/home-main.png';
-import homeBg from '../../assets/home-bg.jpg';
 import Type from './Type';
 
 function About() {
 	return (
-		<section
-			className='home-section'
-			style={{
-				backgroundImage: `linear-gradient(to bottom left, rgba(17, 16, 16, 0.678), rgba(20, 15, 47, 0.863)), url(${homeBg})`,
-			}}>
+		<section className='home-section'>
 			<Container
 				fluid
 				className='home-content'>

@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import homeBg from '../../assets/home-bg.jpg';
 import ProjectCard from './ProjectCard';
 import interactiveTV from '../../assets/Projects/interactive_TV.png';
 import tattooShop from '../../assets/Projects/ink_empire.png';
@@ -12,10 +11,7 @@ function Projects() {
 	return (
 		<Container
 			fluid
-			className='project-section'
-			style={{
-				backgroundImage: `linear-gradient(to bottom left, rgba(17, 16, 16, 0.678), rgba(20, 15, 47, 0.863)), url(${homeBg})`,
-			}}>
+			className='project-section'>
 			<Container>
 				<Row style={{ justifyContent: 'center', paddingTop: '4em' }}>
 					<Col
