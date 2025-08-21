@@ -130,7 +130,7 @@ button:focus {
 	height: 5px;
 	width: 0;
 	border-radius: 16px;
-	background: #eb2a64;
+	background: #050716;
 	bottom: 1px;
 	left: 0;
 	z-index: -1;
@@ -213,7 +213,7 @@ button:focus {
 	flex-direction: column;
 	justify-content: center;
 	padding: 2rem 0;
-	color: rgba(235, 42, 100, 0.8);
+	color: #050716;
 	text-align: left;
 }
 
@@ -435,9 +435,9 @@ button:focus {
 }
 
 .project-card-view {
-	box-shadow: 4px 5px 4px 3px #b32852 !important;
-	border: 1.7px solid #b32852 !important;
-	color: rgba(235, 42, 100, 0.8) !important;
+	box-shadow: 1.5px 2px 1.5px 1px #b32852 !important;
+	border: none !important;
+	color: #050716 !important;
 	background-color: transparent !important;
 	opacity: 0.9 !important;
 	transition: all 0.5s ease 0s !important;
@@ -483,7 +483,7 @@ button:focus {
 
 .card-img-top {
 	padding: 20px !important;
-	opacity: 0.8 !important;
+	opacity: 1 !important;
 	border-radius: 10px !important;
 }
 
@@ -494,15 +494,15 @@ button:focus {
 }
 
 .btn-primary {
-	color: #fff !important;
-	background-color: #eb2a64 !important;
-	border: none !important;
+	color: #050716 !important;
+	background-color: transparent !important;
+	border: 2px solid #050716 !important;
 }
 
 .btn-primary:hover {
 	color: #fff !important;
-	background-color: #d1245a !important;
-	border: none !important;
+	background-color: #050716 !important;
+	border: 2px solid #050716 !important;
 }
 .btn:focus {
 	outline: none !important;
@@ -521,7 +521,7 @@ button:focus {
 	margin: 0.2em !important;
 	padding: 1.2em !important;
 	opacity: 0.93 !important;
-	border: 1.7px solid #b32852 !important;
+	border: none !important;
 	vertical-align: middle !important;
 	text-align: center !important;
 	border-radius: 5px !important;
@@ -529,10 +529,10 @@ button:focus {
 	flex-direction: column !important;
 	justify-content: center !important;
 	align-items: center !important;
-	box-shadow: 4px 5px 4px 3px #b32852 !important;
+	box-shadow: 1.5px 2px 1.5px 1px #b32852 !important;
 	overflow: hidden !important;
 	transition: all 0.4s ease 0s !important;
-	color: rgba(235, 42, 100, 0.8) !important;
+	color: #050716 !important;
 	width: 80px !important;
 	height: 80px !important;
 	aspect-ratio: 1 / 1 !important;
@@ -548,7 +548,7 @@ button:focus {
 }
 
 .tech-icons h6 {
-	color: rgba(235, 42, 100, 0.8) !important;
+	color: #050716 !important;
 }
 
 @media (max-width: 767px) {
